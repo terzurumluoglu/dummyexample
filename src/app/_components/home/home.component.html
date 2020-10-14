@@ -1,0 +1,9 @@
+<p>home works!</p>
+
+<hr>
+<a routerLink='/static'>Static Page</a>
+<hr>
+<a routerLink='/record'>Records</a>
+<hr>
+<p style="cursor: pointer; text-decoration: underline; color: #007bff;" (click)="logIn()" *ngIf="user == null">Log In</p>
+<p style="cursor: pointer; text-decoration: underline; color: #007bff;" (click)="logOut()" *ngIf="user != null">Log Out</p>
